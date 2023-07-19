@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion.Acerca_de_nosotros"
+             Title="Acerca_de_nosotros">
+    <VerticalStackLayout
+       
+        Spacing="60"
+            Padding="20"
+            VerticalOptions="Center"
+            BackgroundColor="Magenta">
+
+
+                    <Image
+                Source="letra.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+                    <Label 
+            Text="¡¡¡Holaa soy katerin Bienvenidoos!!!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+                    
+    </VerticalStackLayout>
+</ContentPage>
